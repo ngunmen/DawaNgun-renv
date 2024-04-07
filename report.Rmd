@@ -28,7 +28,7 @@ random_numbers3 <- readRDS(
 )
 ```
 
-# A scatter plot
+# A scatter plot of random numbers
 
 ```{r, random-numbers1-histogram}
 #| fig.cap = "Scatter plot of random numbers",
