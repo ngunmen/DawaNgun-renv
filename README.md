@@ -133,7 +133,7 @@ Before starting development, *User B* should ensure that their project environme
 	- confirm that *User B* has switched to the new branch by executing `git branch`
 2. In the R console, be sure that the project environment is activated.
 	- e.g., you could check `.libPaths()` and confirm that the `renv/` directory in your project folder is the first file path returned
-	- If the project environment is not activated, activate it: use `setwd` and `getwd` to confirm that your project directory is your working diretory; use `renv::activate()` to activate the project environment.
+	- If the project environment is not activated, activate it: use `setwd` and `getwd` to confirm that your project directory is your working directory; use `renv::activate()` to activate the project environment.
 3. Once the project environment is activated, install the wesanderson package into the project library by running `install.packages('wesanderson')`.
 
 At this point *User B* has installed a new package in the project's library and is now ready to make changes to the code.
